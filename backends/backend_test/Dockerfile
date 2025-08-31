@@ -31,4 +31,4 @@ COPY --from=builder /usr/src/app/dist ./dist
 EXPOSE 9000
 
 # Commande de démarrage
-CMD ["npm", "run", "start:dev"]
+CMD ["npm", "run", "start"]
