@@ -1,4 +1,4 @@
-# 🧩 Test Aptitude – Fullstack Project
+#  Test Aptitude – Fullstack Project
 
 Ce projet contient une stack **Backend + Mobile** :  
 - **Backend** : API REST avec [NestJS](https://nestjs.com/) et [Prisma](https://www.prisma.io/)  
@@ -6,7 +6,7 @@ Ce projet contient une stack **Backend + Mobile** :
 
 ---
 
-## 📌 Prérequis
+##  Prérequis
 
 Avant de commencer, assurez-vous d’avoir installé :  
 
@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous d’avoir installé :
 
 ---
 
-## 📂 Structure du projet
+##  Structure du projet
 
 ```
 testaptitude/
@@ -30,9 +30,9 @@ testaptitude/
 
 ---
 
-## ⚙️ Backend (NestJS + Prisma)
+##  Backend (NestJS + Prisma)
 
-### 🚀 Installation et lancement
+###  Installation et lancement
 
 ```bash
 cd backends/backend-test
@@ -46,7 +46,7 @@ Mode production :
 npm run start:prod
 ```
 
-### 🛠️ Prisma
+###  Prisma
 
 Appliquer les migrations et générer le client Prisma :
 
@@ -61,7 +61,7 @@ Exécuter le script de seed (pour insérer des données initiales) :
 npx ts-node prisma/seed.ts
 ```
 
-### 🔑 Variables d’environnement
+###  Variables d’environnement
 
 Créer un fichier `.env` à la racine du backend :  
 
@@ -70,7 +70,7 @@ DATABASE_URL="file:./dev.db"
 JWT_SECRET="mon_secret_jwt"
 ```
 
-### 🧪 Tests
+###  Tests
 
 ```bash
 # tests unitaires
@@ -82,9 +82,9 @@ npm run test:e2e
 
 ---
 
-## 📱 Frontend Mobile (Flutter)
+##  Frontend Mobile (Flutter)
 
-### 🚀 Installation et lancement
+### Installation et lancement
 
 ```bash
 cd frontends/mobile/testtechniqueflutter
@@ -92,17 +92,17 @@ flutter pub get
 flutter run
 ```
 
-### 📌 Fonctionnalités implémentées
+###  Fonctionnalités implémentées
 
-- 📋 Afficher la liste des projets  
-- ➕ Ajouter un projet  
-- ✏️ Modifier un projet  
-- 🗑️ Supprimer un projet  
-- 🔗 Connexion à l’API NestJS via un `ApiService`  
+-  Afficher la liste des projets  
+-  Ajouter un projet  
+-  Modifier un projet  
+-  Supprimer un projet  
+-  Connexion à l’API NestJS via un `ApiService`  
 
 ---
 
-## 📚 Ressources utiles
+##  Ressources utiles
 
 - [NestJS Docs](https://docs.nestjs.com/)  
 - [Prisma Docs](https://www.prisma.io/docs)  
@@ -110,6 +110,6 @@ flutter run
 
 ---
 
-## 📜 Licence
+##  Licence
 
 Projet sous licence **MIT**.
