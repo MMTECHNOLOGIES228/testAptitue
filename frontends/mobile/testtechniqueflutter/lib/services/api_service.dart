@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import '../models/project_model.dart';
 
 class ApiService {
-  final String baseUrl = 'http://192.168.1.117:9000';
+  final String baseUrl = 'http://192.168.2.101:9000';
 
   // ---------------- GET LIST ----------------
   Future<List<Project>> getProjects({String? status, String? q}) async {
