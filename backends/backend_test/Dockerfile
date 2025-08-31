@@ -31,4 +31,4 @@ COPY --from=builder /usr/src/app/dist ./dist
 EXPOSE 9000
 
 # Commande de démarrage
-CMD ["node", "dist/main.js"]
+CMD ["npm", "run", "start:dev"]
